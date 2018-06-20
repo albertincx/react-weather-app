@@ -1,9 +1,11 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from 'redux'
 
-import { weather } from './weather.reducer';
+import { cities } from './cities.reducer'
+import { current } from './current.reducer'
 
 const rootReducer = combineReducers({
-  weather
-});
+  cities,
+  current
+})
 
-export default rootReducer;
+export default rootReducer
