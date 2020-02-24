@@ -2,4 +2,4 @@
 
 demo: 
 
-https://safiullin.io/projets/weather/
+https://safiullin.io/projects/weather/
